@@ -1,0 +1,133 @@
+html,
+body {
+  font-size: 100%;
+    text-align: center;
+  font-family: 'Lato', sans-serif;     
+}
+
+html {
+background-color: #453f3f;  
+}
+/*Height of header 150px any size screen. adjust in media query */
+.header {
+    height: 100px;
+}
+h2 {
+font-family: 'Lato', sans-serif;
+}
+
+body {
+/*  color: #222222;*/
+  cursor: auto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+/*End Head and Body CSS*/
+/*Padding for sections and wrap site, color, box-shadow, width*/
+
+
+/*
+.nunito { 
+font-family: 'Nunito', sans-serif;
+}
+*/
+.wrap-site {
+ width: 100%;
+    padding: 0 auto;
+    box-shadow: 0 0 10px 0;
+    background-color: #d6d4d4;
+}
+
+/*Button*/
+a#contact-link {
+    display: block;
+    text-align: center;
+    margin: 60px auto 70px;
+    height: 48px;
+    width: 250px;
+    border-radius: 6px;
+/*    box-shadow: 0 0 5px 0;*/
+/*    background-color: #fff;*/
+
+}
+.radius {
+background-color: #fff;
+    font: #f7f;
+    box-shadow: 0 0 .3px 0;
+    font-size: 20px;
+    padding: 11px;
+}
+
+.button:hover {
+  cursor: pointer;
+background-color: black;
+
+}
+/*End button section
+*/
+/*Logo/img*/
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic; }
+
+
+.logo_mid { 
+    background: #fff;
+ background-size: cover;
+    height: 280px;
+    box-shadow: 0 0 1px 0;
+ padding-top: 45px;
+  
+}
+
+/*Main Contact Section*/
+
+.main-content {
+    padding: 40px 30px;
+}
+.main {
+margin-bottom:  20px;
+}
+/*Footer Section*/
+.footer{
+margin-bottom: 45px;
+    padding-top: 40px;
+    background-color: #7c7c7c;
+    box-shadow: 0 0 3px 0;
+}
+/*Social Media Links*/
+li {
+    list-style: none;
+   display: inline;
+}
+
+
+#copyright p {
+font-size: 12px;
+}
+
+/*angled edges*/
+
+.logo_mid{
+    transform: skew(0deg, 4deg);}
+  
+  .logo {
+    transform: skew(0deg, -4deg);
+  }
+
+.footer{
+   transform: skew(0deg, 4deg);
+}
+
+.ext-content {
+    transform: skew(0deg, -4deg);
+}  
+
+
+
+/*fonts similar to Avenir Book, Lato or Nunito*/
+/*#793512 the logo color*/
