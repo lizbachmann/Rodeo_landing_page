@@ -8,12 +8,19 @@ body {
 html {
 background-color: #453f3f;  
 }
+.wrap-site {
+ width: 100%;
+    padding: 0 auto;
+    box-shadow: 0 0 10px 0;
+    background-color: #d6d4d4;
+}
 /*Height of header 150px any size screen. adjust in media query */
 .header {
     height: 100px;
 }
 h2 {
 font-family: 'Lato', sans-serif;
+/*    text-transform: uppercase;*/
 }
 
 body {
@@ -28,20 +35,22 @@ body {
 /*End Head and Body CSS*/
 /*Padding for sections and wrap site, color, box-shadow, width*/
 
+/*Social Media Links*/
+.social {
+padding-top: 20px
+}
+.social img {
+padding-left: 5px;
+}
+li {
+    list-style: none;
+   display: inline;
+}
 
+
+
+/*Button to be added at a later time*/
 /*
-.nunito { 
-font-family: 'Nunito', sans-serif;
-}
-*/
-.wrap-site {
- width: 100%;
-    padding: 0 auto;
-    box-shadow: 0 0 10px 0;
-    background-color: #d6d4d4;
-}
-
-/*Button*/
 a#contact-link {
     display: block;
     text-align: center;
@@ -49,10 +58,12 @@ a#contact-link {
     height: 48px;
     width: 250px;
     border-radius: 6px;
+*/
 /*    box-shadow: 0 0 5px 0;*/
 /*    background-color: #fff;*/
 
-}
+/*}*/
+/*
 .radius {
 background-color: #fff;
     font: #f7f;
@@ -60,15 +71,19 @@ background-color: #fff;
     font-size: 20px;
     padding: 11px;
 }
+*/
 
+/*
 .button:hover {
   cursor: pointer;
 background-color: black;
 
 }
+*/
 /*End button section
 */
 /*Logo/img*/
+
 img {
   max-width: 100%;
   height: auto;
@@ -82,6 +97,13 @@ img {
     box-shadow: 0 0 1px 0;
  padding-top: 45px;
   
+
+}
+/*Lancaster Event Center Logo, positioning*/
+.event_center {
+padding: 10px 0 40px 0;
+    background: white;
+    box-shadow: 0 0 3px 0;
 }
 
 /*Main Contact Section*/
@@ -89,29 +111,22 @@ img {
 .main-content {
     padding: 40px 30px;
 }
-.main {
-margin-bottom:  20px;
-}
+
 /*Footer Section*/
 .footer{
-margin-bottom: 45px;
-    padding-top: 40px;
-    background-color: #7c7c7c;
+    padding: 30px 0 10px 0;
+    background-color: #d6d4d4;
     box-shadow: 0 0 3px 0;
 }
-/*Social Media Links*/
-li {
-    list-style: none;
-   display: inline;
-}
 
 
-#copyright p {
+.location, #copyright>p {
 font-size: 12px;
 }
 
 /*angled edges*/
 
+/*
 .logo_mid{
     transform: skew(0deg, 4deg);}
   
@@ -126,6 +141,7 @@ font-size: 12px;
 .ext-content {
     transform: skew(0deg, -4deg);
 }  
+*/
 
 
 
