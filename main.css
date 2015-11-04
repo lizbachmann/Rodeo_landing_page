@@ -99,6 +99,13 @@ img {
   
 
 }
+
+/*Main Contact Section*/
+
+.main-content {
+    padding: 40px 30px;
+}
+
 /*Lancaster Event Center Logo, positioning*/
 .event_center {
 padding: 10px 0 40px 0;
@@ -106,11 +113,6 @@ padding: 10px 0 40px 0;
     box-shadow: 0 0 3px 0;
 }
 
-/*Main Contact Section*/
-
-.main-content {
-    padding: 40px 30px;
-}
 
 /*Footer Section*/
 .footer{
@@ -124,24 +126,8 @@ padding: 10px 0 40px 0;
 font-size: 12px;
 }
 
-/*angled edges*/
 
-/*
-.logo_mid{
-    transform: skew(0deg, 4deg);}
-  
-  .logo {
-    transform: skew(0deg, -4deg);
-  }
 
-.footer{
-   transform: skew(0deg, 4deg);
-}
-
-.ext-content {
-    transform: skew(0deg, -4deg);
-}  
-*/
 
 
 
