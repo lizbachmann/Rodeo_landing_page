@@ -93,15 +93,17 @@ img {
 .logo_mid { 
     background: #fff;
  background-size: cover;
-    height: 280px;
+    height: 240px;
     box-shadow: 0 0 1px 0;
- padding-top: 45px;
+ padding-top: 40px;
   
 
 }
 
 /*Main Contact Section*/
-
+.middle {
+    padding-top: 20px;
+}
 .main-content {
     padding: 40px 30px;
 }
@@ -126,10 +128,12 @@ padding: 10px 0 40px 0;
 font-size: 12px;
 }
 
+@media screen and (max-width: 480px) {
+    .logo_mid {
+        height: 150px;
+        padding-top: 20px;
+         
+    }
+}
 
 
-
-
-
-/*fonts similar to Avenir Book, Lato or Nunito*/
-/*#793512 the logo color*/
