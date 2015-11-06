@@ -1,37 +1,62 @@
 html,
 body {
   font-size: 100%;
-    font: 
-}
-html {
-background-color: #60822e;  
+    text-align: center;
+  font-family: 'Lato', sans-serif;     
 }
 
+html {
+background-color: #453f3f;  
+}
+.wrap-site {
+ width: 100%;
+    padding: 0;
+    box-shadow: 0 0 10px 0;
+    background-color: #d6d4d4;
+}
+/*Height of header 150px any size screen. adjust in media query */
+.header {
+    height: 100px;
+}
+h2 {
+font-family: 'Lato', sans-serif;
+/*    text-transform: uppercase;*/
+}
+p {
+    text-align: center;
+}
+
+
+
+
 body {
-  color: #222222;
+/*  color: #222222;*/
   cursor: auto;
-  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
   margin: 0;
   padding: 0;
   position: relative; }
+/*End Head and Body CSS*/
+/*Padding for sections and wrap site, color, box-shadow, width*/
 
-section {
-/*display: block;*/
-/*    text-align: center;*/
-    padding: 16px;
+/*Social Media Links*/
+.social {
+padding-top: 20px
 }
-.header {
-    height: 150px;
+.social img {
+padding-left: 5px;
 }
-.wrap-site {
- width: 100%;
-    padding: 0 auto;
-    box-shadow: 0 0 5px 0;
-    background-color: #eee;
+li {
+    list-style: none;
+   display: inline;
 }
+
+
+
+/*Button to be added at a later time*/
+/*
 a#contact-link {
     display: block;
     text-align: center;
@@ -39,26 +64,31 @@ a#contact-link {
     height: 48px;
     width: 250px;
     border-radius: 6px;
+*/
 /*    box-shadow: 0 0 5px 0;*/
 /*    background-color: #fff;*/
 
-}
+/*}*/
+/*
 .radius {
 background-color: #fff;
     font: #f7f;
+    box-shadow: 0 0 .3px 0;
+    font-size: 20px;
+    padding: 11px;
 }
-a {
-line-height: inherit;
+*/
+
+/*
+.button:hover {
+  cursor: pointer;
+background-color: black;
+
 }
-.slogan {
-text-align: center;
-}
-.row {
-line-height: 1.5em;
-    text-align: center;
-}
-a:hover {
-  cursor: pointer; }
+*/
+/*End button section
+*/
+/*Logo/img*/
 
 img {
   max-width: 100%;
@@ -68,36 +98,48 @@ img {
 
 .logo_mid { 
     background: #fff;
-    background-size: cover;
-    height: 200px;
-    box-shadow: 0 0 3px 0;
-    margin-top: 2px;
-/*
-    transform: skewY(-1.5deg);
-     transform-origin: 100%;
-*/
+ background-size: cover;
+    height: 240px;
+    box-shadow: 0 0 1px 0;
+ padding-top: 40px;
+  
+
 }
-.main-content {
-height: 700px;
+
+/*Main Contact Section*/
+.middle {
     padding-top: 20px;
 }
-.footer{
-padding-top: 20px;
-}
-li {
-    list-style: none;
-   display: inline;
+.main-content {
+    padding: 40px 30px;
 }
 
-#copyright p {
+/*Lancaster Event Center Logo, positioning*/
+.event_center {
+padding: 10px 0 40px 0;
+    background: #fff;
+    box-shadow: 0 0 3px 0;
+}
+
+
+/*Footer Section*/
+.footer{
+    padding: 30px 0 10px 0;
+    background-color: #d6d4d4;
+    box-shadow: 0 0 3px 0;
+}
+
+
+.location, #copyright>p {
 font-size: 12px;
 }
-.feature {
-display: inline;
+
+@media screen and (max-width: 480px) {
+    .logo_mid {
+        height: 150px;
+        padding-top: 20px;
+         
+    }
 }
 
-.row {
-    width: 100%;
-    text-align: center;
-}
 
